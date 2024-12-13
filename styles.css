@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #228B22, #CCFF00);
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 60px 10px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro para contraste */
+    border-bottom: 10px solid #228B22; /* Un toque elegante */
+}
+
+header .logo-container {
+    margin-bottom: 20px;
+}
+
+header img {
+    max-width: 150px;
+    height: auto;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin-top: 0;
+    font-weight: 300; /* Peso de fuente más suave */
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin: 50px 0;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    color: #228B22;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.2rem;
+    color: #555;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+
+.feature {
+    flex: 1;
+    min-width: 300px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.feature:hover {
+    transform: translateY(-10px); /* Hover effect */
+}
+
+.feature h3 {
+    color: #228B22;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.feature p {
+    font-size: 1.1rem;
+    color: #777;
+}
+
+.cta {
+    background: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cta h2 {
+    font-size: 2.5rem;
+    color: #228B22;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.cta .cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: #fff;
+    background: #228B22;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+}
+
+.cta .cta-button:hover {
+    background: #1e7d1e;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #228B22;
+    color: #fff;
+    margin-top: 60px;
+}
+
+footer a {
+    color: #CCFF00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
